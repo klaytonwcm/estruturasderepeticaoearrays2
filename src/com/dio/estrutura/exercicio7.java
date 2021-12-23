@@ -8,7 +8,7 @@ public class exercicio7 {
 
         System.out.print("Vetor: ");
 
-        //Repetição Inversa com -- para exibir vetor Invertido
+        //Repetição Inversa com -- para exibir vetor Invertido.
         for (int i = vetor.length -1; i >= 0; i--) {
             System.out.print(vetor[i] + " ");
         }
