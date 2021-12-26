@@ -30,7 +30,7 @@ public class exercicio8 {
                 quantconso++;
              }
 
-            //incrementação do contador
+            //incrementação do contador de consoantes
                 contador++;
 
             }//Quando
