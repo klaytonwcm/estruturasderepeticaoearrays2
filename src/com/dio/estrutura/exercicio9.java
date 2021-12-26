@@ -11,14 +11,14 @@ public class exercicio9 {
     //Variaveis e Funções de Entrada de dados
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        Random randm = new Random();
+        Random random = new Random();
 
         //Array com 20 elementos
         int[] nAleatorios = new int[20];
 
         //laço que gera o número aleatório e armazena na variavel numero
         for (int i = 0; i < nAleatorios.length; i++) {
-            int numero = randm.nextInt(100);
+            int numero = random.nextInt(100);
             nAleatorios[i] = numero;
         }
         //Imprime na Tela o número aleatório e seu sucessor em apenas um laço
